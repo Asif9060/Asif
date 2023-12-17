@@ -1,8 +1,164 @@
 body {
-    background: black;
+    font-family: 'Titillium Web', sans-serif;
+    background: url(images/top-banner.png) no-repeat;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 50px;
+    position: relative;
+    top: 25px;
+    
+}
+h2 {
+    font-size: 40px;
+}
+
+#h {
+    color: rgb(255, 116, 2);
+}
+
+header {
+    font-weight: 700;
+    font-size: 20px;
 }
 
 button {
-    background: transparent;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(255,182,79,1) 100%);
+    border: none;
+    border-radius:10px;
+    padding: 12px;
     color: aliceblue;
+}
+
+.container {
+    position: relative;
+    left: 10%;
+    width: 25%;
+}
+
+.right {
+    width: 385px;
+    position: relative;
+    left: 804px;
+    top: -289px;
+}
+
+.me {
+    position: relative;
+    top: -316px;
+    left: 447px;
+    width: 348px;
+}
+
+.left {
+    position: relative;
+    top: 43px;
+    left: -608px;
+    width: 373px;
+}
+
+.me2 {
+    position: relative;
+    top: -307px;
+    left: 185px;
+    width: 313px;
+}
+
+.container2 {
+    width: 50%;
+    position: relative;
+    top: -536px;
+    left: 564px;
+    overflow: hidden;
+}
+
+.cv {
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+    background: #ff7e5f;
+    background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+
+}
+
+.exp {
+    text-align: center;
+    position: relative;
+    top: -413px;
+}
+
+.box1 {
+    width: 40%;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    top: -388px;
+    margin-left: 63px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.box2 {
+    width: 40%;
+    height: 350px;
+    border-radius: 10px;
+    float: right;
+    position: relative;
+    top: -738px;
+    margin-right: 63px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.b1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.b2 {
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: -5px;
+}
+
+.line {
+    width: 63%;
+    border-radius: 0 0 10px 10px;
+    transform: rotate(90deg);
+    position: relative;
+    top: -134px;
+    left: -171px;
+    padding:4px;
+    background: linear-gradient(115deg, #3c8ce7, #00eaff);
+    
+}
+
+.line2 {
+    width: 63.5%;
+    border-radius: 0 0 10px 10px;
+    transform: rotate(90deg);
+    position: relative;
+    top: -108px;
+    left: -171px;
+    padding: 4px;
+    background: linear-gradient(115deg, #fa8bff, #2bd2ff, #2bff88);
+        
+}
+
+.dev {
+    text-align: justify;
+    padding: 15px;
+}
+
+.bla {
+    text-align: justify;
+    padding: 15px;
+    position: relative;
+    top: -30px;
 }
